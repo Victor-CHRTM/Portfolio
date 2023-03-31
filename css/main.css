@@ -84,6 +84,34 @@
       .SiteHeader .projets .content__langageP {
         text-align: center;
         color: #111; }
+      .SiteHeader .projets .content button {
+        width: 35%;
+        padding: 10px;
+        margin: 0 32.5% 0 32.5%;
+        background-color: #E5E5E5;
+        color: #111;
+        border-radius: 20px; }
+      .SiteHeader .projets .content__fonctionnalites {
+        display: none;
+        width: 100%; }
+        .SiteHeader .projets .content__fonctionnalites__gauche {
+          width: 50%;
+          text-align: left; }
+          .SiteHeader .projets .content__fonctionnalites__gauche h5 {
+            text-align: center; }
+        .SiteHeader .projets .content__fonctionnalites__droite {
+          width: 50%;
+          text-align: left; }
+          .SiteHeader .projets .content__fonctionnalites__droite h5 {
+            text-align: center; }
+      .SiteHeader .projets .content__img {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; }
+        .SiteHeader .projets .content__img img {
+          object-fit: cover;
+          width: 200px;
+          height: 200px; }
     .SiteHeader .projets .show {
       display: block; }
   .SiteHeader .block {
