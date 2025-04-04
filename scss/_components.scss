@@ -1,0 +1,15 @@
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.6rem;
+    margin: 0.2rem;
+    border-radius: 999px;
+    border: 1px solid $primary-color;
+    font-size: 0.85rem;
+    color: $primary-color;
+  
+    i {
+      margin-right: 0.3rem;
+    }
+  }
+  
