@@ -3,14 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Portfolio CHRISTMANN Victor </title>
+  <title>Portfolio - CHRISTMANN Victor</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1> Bienvenue sur mon portfolio </h1>
-  <p> Ce site est en cours de rénovation...(Maj : 04 Avril 2025) ✨</p>
-  <p> Cependant vous pouvez retrouver mes projets sur mon GitHub : 
-    <a href="https://github.com/Victor-CHRTM"> GitHub </a>
-  </p>
+  <header>
+    <div class="container">
+      <h1>Mon Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Parcours</a></li>
+          <li><a href="#">Projets</a></li>
+          <li><a href="#">Compétences</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="current-status-error">
+    <div class="container">
+      <p>
+        Dernière mise à jour le <strong>08.04.2025</strong><br>
+        Ce site fait peau neuve... - 
+        Retrouvez mes différents projets ici : <a href="https://github.com/Victor-CHRTM" target="_blank"><strong>GitHub</strong></a>
+      </p> 
+    </div>
+  </section> 
+
+  <section class="home-intro">
+    <div class="container">
+      <h2>Bonjour, je suis Victor</h2>
+      <p>
+        Développeur web passionné, spécialisé en HTML, SCSS et JavaScript. 
+        Actuellement à la recherche d'un emploi en attendant une potentielle entrée en Master en Septembre 2025. <br>
+      </p>
+    </div>
+  </section>
+
+  <section class="current-status">
+    <div class="container">
+      <p>
+        Actuellement disponible pour un(e) <strong>CDD / Intérim</strong><br>
+        En préparation d’un <strong>Master 1 Développement Web</strong> à la rentrée 2025<br>
+        Je suis aussi à la recherche d’une entreprise pour effectuer une <strong>alternance</strong> dès septembre.
+      </p>
+    </div>
+  </section> 
+
+  <section class="projects-preview">
+    <div class="container">
+      <h2>Projets Récents</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio V1</h3>
+          <p>Un ancien portfolio réalisé en BTS pour mes examens de fin d'année (2023).</p>
+          <div class="tags">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <span class="tag js">JavaScript</span>
+          </div>
+          <a href="https://github.com/Victor-CHRTM/Portfolio-BTS" class="code-link" target="_blank">Voir le code</a>
+        </div>
+  
+        <div class="project-card">
+          <h3>Space Invader</h3>
+          <p>Réplique du célèbre jeu Japonais Space Invader, réalisé en 3D via Java. Ce projet à été réalisé en cours</p>
+          <div class="tags">
+            <span class="tag java">Java</span>
+          </div>
+          <a href="https://github.com/Victor-CHRTM/SpaceInvaders3D" class="code-link" target="_blank">Voir le code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Lapeyrapp</h3>
+          <p>Une petite application réalisé via Angular lors de mon alternance chez Lapeyre pour s’initier aux composants.</p>
+          <div class="tags">
+            <span class="tag angular">Angular</span>
+            <span class="tag scss">SCSS</span>
+          </div>
+          <a href="https://github.com/Victor-CHRTM/Rec-GC-3.0" class="code-link" target="_blank">Voir le code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Compétences Principales</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3 / SCSS</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fab fa-angular"></i>
+          <span>Angular</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <span>SQL</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fas fa-bolt"></i>
+          <span>Svelte</span>
+        </div>
+  
+        <div class="skill">
+          <i class="fab fa-java"></i>
+          <span>Java</span>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="mailto:victor.christmann1@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="tel:+33767247320"><i class="fas fa-phone"></i> Téléphone</a>
+        <a href="https://www.linkedin.com/in/victor-christmann-b44226215/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <p>© 2025 - CHRISTMANN Victor</p>
+    </div>
+  </footer>  
 </body>
 </html>

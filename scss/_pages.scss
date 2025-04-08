@@ -1,5 +1,31 @@
 .home-intro {
-    padding: 2rem;
-    text-align: center;
+  padding: 3rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
-  
+
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+
+.projects-preview {
+  padding: 3rem 0;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+}
+
